@@ -1,0 +1,98 @@
+body{
+    width: 41.4rem;
+    height: 73.6;
+    background-color: #E8E8E8;
+}
+.logo{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+
+    margin: auto;
+    margin-top: 8rem;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+
+    object-fit: cover;
+}
+.null1{
+    height: 13rem;
+}
+.form_login{
+    display: grid;
+    justify-content: center;
+
+}
+/**---------USERNAME----------------*/
+.casilla_U{
+    border: none;
+    background-color: transparent;
+    height: 2rem;
+    width: 22rem;
+}
+.user{
+    font-size: 1.7rem;
+    color: #808080;
+}
+.usuario{
+    border-bottom: 2px solid #ACACAC;
+}
+/**-----------PASSWORD--------------------**/
+.null2{
+    height: 4rem;
+}
+.casilla_P{
+   border: none;
+   background-color: transparent;
+   height: 3rem;
+   width: 22rem;
+}
+.pass{
+    font-size: 1.7rem;
+    color: #808080;
+}
+.contra{
+        border-bottom: 2px solid #ACACAC; 
+        
+}
+.olvidar_contra{
+    height: 4rem;
+    display: grid;
+    justify-content: flex-end;
+}
+.Nopass{
+   border: #ACACAC;
+   color: #808080;
+   background-color: transparent;
+    
+}
+/*-------BOTON SIGN IN -------------*/
+.null3{
+    height: 3.5rem;
+}
+.sign_in{
+    display: grid;
+    justify-content: center;
+}
+.aceptar{
+    height: 3.5rem;
+    width: 30rem;
+    border-radius: 2rem;
+    background-color: #acabab;
+    color: white;
+    font-size: 2rem;
+    border: #acabab;
+}
+.aceptar:hover{
+    transition-duration: 0.10s;
+    background-color: #8e8192;
+}
+.flecha_sign img{
+    height: 2.3rem;
+    float: right;
+    position: absolute;
+    transform: translate(23rem, -3rem);
+}
